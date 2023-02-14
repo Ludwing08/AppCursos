@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5</title>
+    <defs>
+        <path d="M12.6933333,4.4693816 L2.13333333,4.4693816 L2.13333333,12.2906724 C2.13333333,13.1611466 2.8496,13.8666667 3.73333333,13.8666667 L12.8,13.8666667 C13.3893333,13.8666667 13.8666667,13.396495 13.8666667,12.8160038 L13.8666667,5.63740573 C13.8666667,5.0569145 13.2826667,4.4693816 12.6933333,4.4693816 Z M11.7333333,8.026546 C12.3226667,8.026546 12.8,8.50171946 12.8,9.08838612 C12.8,9.67505279 12.3226667,10.1502262 11.7333333,10.1502262 C11.144,10.1502262 10.6666667,9.67505279 10.6666667,9.08838612 C10.6666667,8.50171946 11.144,8.026546 11.7333333,8.026546 Z M11.5131462,4.3421125 C11.4497315,3.75689824 10.9540523,3.30135747 10.3519759,3.30135747 L10.3519759,3.30135747 L4.4746908,3.30135747 C3.82960888,3.30135747 3.30666667,3.82429968 3.30666667,4.4693816 L3.30666667,4.4693816 L2.13333333,4.4693816 C2.13333333,3.17921777 3.17921777,2.13333333 4.4693816,2.13333333 L10.3572851,2.13333333 C11.5936921,2.13333333 12.6057522,3.0938765 12.687944,4.30944139 L12.6933333,4.4693816 L11.52,4.4693816 Z" id="path-1"></path>
+    </defs>
+    <g id="Dating_App-iPhoneX-Dark-Mode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Profile" transform="translate(-33.000000, -494.000000)">
+            <g id="Panel-#2" transform="translate(17.000000, 480.000000)">
+                <g id="Wallet" transform="translate(1.000000, 14.000000)">
+                    <g id="Group-5" transform="translate(15.000000, 0.000000)">
+                        <rect id="Rectangle-2" fill="#F05522" x="0" y="0" width="22" height="22" rx="8"></rect>
+                        <g id="icons/wallet" transform="translate(3.000000, 3.000000)">
+                            <rect id="Rectangle" fill-opacity="0" fill="#FF0000" fill-rule="evenodd" x="0" y="0" width="16" height="16"></rect>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Wallet" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <g id="color/White" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                                <rect x="0" y="0" width="16" height="16"></rect>
+                                <rect x="0" y="0" width="16" height="16"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,37 @@
+<ion-content [fullscreen]="true" class="fondo" mode="ios">
+  <ion-toolbar mode="ios" color="primary">
+    <ion-title class="titulo" mode="ios" size="large">Lista de Cursos</ion-title>
+    <ion-buttons mode="ios" slot="end">
+      <ion-icon (click)="activarFiltros()" mode="ios" name="filter" color="light"></ion-icon>
+      <ion-button (click)="logout()">
+        <ion-icon name="log-out-outline"></ion-icon>
+      </ion-button>      
+    </ion-buttons>
+  </ion-toolbar>
+
+  <ion-slides mode="ios">
+
+    <ion-slide mode="ios" *ngFor="let curso of cursos"> 
+      <ion-card mode="ios">
+        <ion-img [src]="curso.imagen"></ion-img>
+        <ion-card-header>
+          <img (click)="nextSlide()" src="../../../assets/images/btn-cards/Rewinds.svg" alt="rewind">
+          <img (click)="nextSlide()" src="../../../assets/images/btn-cards/Like4.svg" alt="like">
+          <img (click)="aumentarFavorito(curso.imagen, curso.titulo, curso.subtitulo, curso.categoria, curso.favoritos, curso.id)" src="../../../assets/images/btn-cards/Superlike.svg" alt="superlike">
+          <ion-card-title mode="ios">
+            {{curso.titulo}}
+            <ion-button mode="ios" size="small" color="primary">
+              <ion-icon mode="ios" color="light" slot="start" name="star"></ion-icon>
+              {{curso.favoritos}}
+            </ion-button>
+          </ion-card-title>
+          <ion-card-subtitle mode="ios">
+            {{curso.subtitulo}}
+          </ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+
+  </ion-slides>
+
+</ion-content>

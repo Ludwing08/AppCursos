@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="65px" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>buttons/Superlike</title>
+    <defs>
+        <circle id="path-1" cx="22.5" cy="22.5" r="22.5"></circle>
+        <filter x="-35.6%" y="-31.1%" width="171.1%" height="171.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.128113678 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M25.1563363,12.8133919 C25.6042519,12.3581931 25.7620542,11.6905681 25.5690499,11.0702839 C25.3760456,10.4499996 24.8722922,10.0069394 24.2544357,9.91347191 L18.8491014,9.09411402 C18.7434952,9.0783338 18.6512416,9.00914358 18.6039009,8.9083929 L16.1870986,3.79802742 C15.9091239,3.2129452 15.3495328,2.85 14.7243931,2.85 C14.0992533,2.85 13.5396623,3.2129452 13.2641152,3.79802742 L10.8460991,8.9083929 C10.7987584,9.00914358 10.7065048,9.0783338 10.6008986,9.09411402 L5.19556432,9.91468577 C4.57770778,10.0081533 4.07395441,10.4512135 3.88095011,11.0714977 C3.68794581,11.691782 3.84574807,12.3594069 4.29366371,12.8146058 L8.20473202,16.7924366 C8.28120542,16.8701238 8.31640747,16.9830131 8.29819951,17.0934747 L7.37444936,22.7112352 C7.26884324,23.353369 7.51768526,23.9906473 8.02265249,24.3742282 C8.52761972,24.7578091 9.18553376,24.8075775 9.73784167,24.5041116 L14.5726601,21.8518198 C14.6673415,21.7996236 14.7814447,21.7996236 14.876126,21.8518198 L19.7109445,24.5041116 C19.9512895,24.633995 20.2110562,24.6995436 20.470823,24.6995436 C20.8070632,24.6995436 21.1408757,24.5890821 21.4273475,24.3730143 C21.9323147,23.9894335 22.1811568,23.3521551 22.0755506,22.7100213 L21.1518005,17.0922609 C21.1335925,16.9817993 21.1687946,16.86891 21.245268,16.7912227 L25.1563363,12.8133919 Z" id="path-3"></path>
+    </defs>
+    <g id="Dating_App-iPhoneX-Dark-Mode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Discover" transform="translate(-274.000000, -520.000000)">
+            <g id="Card-main" transform="translate(16.000000, 120.000000)">
+                <g id="buttons/Superlike" transform="translate(268.000000, 408.000000)">
+                    <g id="Superlike">
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="icons/star" transform="translate(8.250000, 8.250000)">
+                            <rect id="Rectangle" fill-opacity="0" fill="#FF0000" x="0" y="0" width="28.5" height="28.5"></rect>
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Star" fill="#000000" fill-rule="nonzero" xlink:href="#path-3"></use>
+                            <g id="color/tertiary" mask="url(#mask-4)" fill="#9BC1BC">
+                                <rect id="color/Pink-purple" x="0" y="0" width="28.5" height="28.5"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

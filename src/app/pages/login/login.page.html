@@ -1,0 +1,38 @@
+<ion-content>
+  <div class="card-center">
+    <ion-card mode="ios">
+      <ion-card-header mode="ios">
+        <ion-label mode="ios">Iniciar Sesión</ion-label>
+      </ion-card-header>
+      <ion-card-content mode="ios">
+        <!-- <ion-item class="t" mode="ios">
+        <ion-label class="titulo" mode="ios" position="floating">Ingrese usuario</ion-label>
+        <ion-input mode="ios"></ion-input>
+      </ion-item>
+      <ion-item class="t" mode="ios">
+        <ion-label class="titulo" mode="ios" position="floating">Contraseña</ion-label>
+        <ion-input type="password" mode="ios"></ion-input>
+      </ion-item> -->
+
+        <ion-input placeholder="Usuario" mode="ios"></ion-input>
+        <ion-input type="password" mode="ios" placeholder="Contraseña"></ion-input>
+      </ion-card-content>
+
+      <div class="botones">
+        <ion-button mode="ios" (click)="loginFacebook()" color="primary">
+          <ion-icon slot="start" name="logo-facebook"></ion-icon>
+          Iniciar Sesión con Facebook</ion-button>
+      </div>
+      <div class="botones">
+        <ion-button mode="ios" (click)="loginGoogle()" color="danger">
+        <ion-icon slot="start" name="logo-google"></ion-icon>
+        Iniciar Sesión con Gmail
+      </ion-button>
+      </div>
+
+    </ion-card>
+
+  </div>
+
+
+</ion-content>

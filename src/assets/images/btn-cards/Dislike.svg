@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>buttons/Dislike</title>
+    <defs>
+        <circle id="path-1" cx="35" cy="35" r="35"></circle>
+        <filter x="-22.9%" y="-20.0%" width="145.7%" height="145.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.128113678 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M25.0512889,22.1666667 L36.3474222,10.8705333 C37.1434519,10.0745037 37.1434519,8.78194074 36.3474222,7.98591111 C35.5513926,7.18988148 34.2588296,7.18988148 33.4628,7.98591111 L22.1666667,19.2820444 L10.8705333,7.98591111 C10.0745037,7.18988148 8.78194074,7.18988148 7.98591111,7.98591111 C7.18988148,8.78194074 7.18988148,10.0745037 7.98591111,10.8705333 L19.2820444,22.1666667 L7.98591111,33.4628 C7.18988148,34.2588296 7.18988148,35.5513926 7.98591111,36.3474222 C8.78194074,37.1434519 10.0745037,37.1434519 10.8705333,36.3474222 L22.1666667,25.0512889 L33.4628,36.3474222 C34.2588296,37.1434519 35.5513926,37.1434519 36.3474222,36.3474222 C37.1434519,35.5513926 37.1434519,34.2588296 36.3474222,33.4628 L25.0512889,22.1666667 Z" id="path-3"></path>
+    </defs>
+    <g id="Dating_App-iPhoneX-Dark-Mode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Discover" transform="translate(-104.000000, -507.000000)">
+            <g id="Card-main" transform="translate(16.000000, 120.000000)">
+                <g id="buttons/dislike" transform="translate(98.000000, 395.000000)">
+                    <g id="Superlike">
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="icons/close" transform="translate(12.833333, 12.833333)">
+                            <rect id="Rectangle" fill-opacity="0" fill="#FF0000" fill-rule="evenodd" x="0" y="0" width="44.3333333" height="44.3333333"></rect>
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-3"></use>
+                            <g id="color/Title-text-light-gray-2" mask="url(#mask-4)" fill-rule="evenodd">
+                                <rect id="color/Title-text-light-gray" fill="#DAD9E2" x="0" y="0" width="44.3333333" height="44.3333333"></rect>
+                                <rect id="color/Title-text-light-gray" fill="#C1C0C9" x="0" y="0" width="44.3333333" height="44.3333333"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+<ion-content>
+  <ion-toolbar mode="ios" >
+    <ion-title class="titulo" mode="ios" size="large">Los más destacados</ion-title>
+  </ion-toolbar>
+
+  <ion-segment value="1" color="danger">
+    <ion-segment-button (click)="desfiltrar()" value="1">
+      <ion-label>Todos</ion-label>
+    </ion-segment-button>
+
+    <ion-segment-button (click)="filtrar()" value="2">
+      <ion-label>Destacados</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6"  *ngFor="let curso of cursos">
+        <div>
+          <ion-img class="imagen" [src]="curso.imagen"></ion-img>
+          <ion-icon mode="ios" color="danger" slot="start" name="play-circle"></ion-icon>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="6">
+                <ion-text>
+                  {{curso.titulo}}
+                </ion-text>
+              </ion-col>
+              <ion-col size="6">
+                <ion-button mode="ios" size="small" color="tertiary">
+                  <ion-icon mode="ios" color="light" slot="start" name="star"></ion-icon>
+                  {{curso.favoritos}}
+                </ion-button>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </div>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+</ion-content>

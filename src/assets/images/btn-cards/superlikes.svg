@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="342px" height="40px" viewBox="0 0 342 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group Copy 3</title>
+    <defs>
+        <path d="M21.1842832,10.7902248 C21.5614753,10.4068994 21.6943614,9.84468895 21.5318315,9.3223443 C21.3693015,8.79999966 20.9450882,8.42689634 20.4247879,8.34818687 L15.8729275,7.65820128 C15.783996,7.64491267 15.7063087,7.58664722 15.6664429,7.50180455 L13.6312409,3.19833888 C13.397157,2.70563806 12.9259223,2.4 12.3994889,2.4 C11.8730555,2.4 11.4018208,2.70563806 11.1697813,3.19833888 L9.13355711,7.50180455 C9.09369128,7.58664722 9.01600401,7.64491267 8.92707254,7.65820128 L4.37521206,8.34920907 C3.85491181,8.42791854 3.43069845,8.80102186 3.26816851,9.3233665 C3.10563857,9.84571115 3.23852469,10.4079216 3.61571681,10.791247 L6.90924802,14.1409992 C6.97364667,14.2064201 7.0032905,14.3014847 6.98795748,14.394505 L6.21006262,19.1252507 C6.12113115,19.6659949 6.33068232,20.2026504 6.75591789,20.5256659 C7.18115345,20.8486813 7.73518632,20.8905916 8.20028772,20.6350414 L12.2717138,18.4015324 C12.3514455,18.3575778 12.4475323,18.3575778 12.527264,18.4015324 L16.5986901,20.6350414 C16.8010859,20.7444168 17.0198368,20.7996157 17.2385878,20.7996157 C17.5217375,20.7996157 17.8028427,20.7065954 18.0440821,20.5246437 C18.4693177,20.2016282 18.6788689,19.6649727 18.5899374,19.1242285 L17.8120425,14.3934828 C17.7967095,14.3004625 17.8263533,14.2053979 17.890752,14.139977 L21.1842832,10.7902248 Z" id="path-1"></path>
+    </defs>
+    <g id="Dating_App-iPhoneX-Dark-Mode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Favorites-/-Dropdown-Menu" transform="translate(-17.000000, -294.000000)">
+            <g id="NavBar">
+                <g id="Dropdown-Menu" transform="translate(17.000000, 109.000000)">
+                    <g id="Group-Copy-3" transform="translate(0.000000, 185.000000)">
+                        <rect id="Rectangle-5" fill="#E6E6E6" x="0" y="0" width="342" height="40" rx="8"></rect>
+                        <text id="Superlikes" font-family="Roboto-Regular, Roboto" font-size="17" font-weight="normal" line-spacing="22" letter-spacing="-0.41" fill="#262628">
+                            <tspan x="54" y="24">Superlikes</tspan>
+                        </text>
+                        <g id="icons/message" transform="translate(16.000000, 8.000000)">
+                            <rect id="Rectangle" fill-opacity="0" fill="#FF0000" x="0" y="0" width="24" height="24"></rect>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Star" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <g id="color/Title-text-light-gray-2" mask="url(#mask-2)">
+                                <rect id="color/Title-text-light-gray" fill="#DAD9E2" x="0" y="0" width="24" height="24"></rect>
+                                <rect id="color/Title-text-light-gray" fill="#C1C0C9" x="0" y="0" width="24" height="24"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

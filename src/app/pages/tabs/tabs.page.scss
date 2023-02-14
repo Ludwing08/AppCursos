@@ -1,0 +1,20 @@
+ ion-tab-button,ion-tab-bar {
+    background-color:black !important;
+}
+
+ion-tabs, ion-tab-bar{
+    border: #F5F5F5 solid 1px !important;     
+}
+
+ion-icon{
+    color: rgb(236, 124, 124) !important;
+}
+
+ion-icon:hover{
+    color: white !important;
+}
+
+ion-tab-button, ion-label:hover{
+    text-decoration: solid;
+    color: white !important;
+}

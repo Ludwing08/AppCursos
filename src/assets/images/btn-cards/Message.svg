@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>buttons/Message</title>
+    <defs>
+        <circle id="path-1" cx="30" cy="30" r="30"></circle>
+        <filter x="-26.7%" y="-23.3%" width="153.3%" height="153.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.128113678 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M28.6830373,6 C31.6170335,6 34.0016104,8.00679518 34,10.4815718 L34,10.4815718 L34,23.5363025 C34,26.0110791 31.6234783,27.9983751 28.6814261,27.9983751 C25.3221106,27.9991881 23.034956,27.999696 21.8199623,27.9998989 L22.873088,28.4176828 L20.1247896,31.1659813 C19.7342653,31.5565056 19.1011003,31.5565056 18.710576,31.1659813 L16,28.4554053 L16.454,28 L10.3185731,28 C7.46387405,28 5.12929738,26.1186738 5.00518929,23.7374872 L5,23.5379275 L5,10.4815718 C5,8.00679518 7.38457685,6 10.3185731,6 L10.3185731,6 Z M12,15 C10.8933333,15 10,15.8931116 10,17 C10,18.1068884 10.8933333,19 12,19 C13.1066667,19 14,18.1053048 14,17 C14,15.8931116 13.1066667,15 12,15 Z M19,15 C17.8933333,15 17,15.8931116 17,17 C17,18.1068884 17.8933333,19 19,19 C20.1066667,19 21,18.1053048 21,17 C21,15.8931116 20.1066667,15 19,15 Z M27,15 C25.8933333,15 25,15.8931116 25,17 C25,18.1068884 25.8933333,19 27,19 C28.1066667,19 29,18.1053048 29,17 C29,15.8931116 28.1066667,15 27,15 Z" id="path-3"></path>
+        <linearGradient x1="124.31875%" y1="-1.15196308%" x2="-15.7072917%" y2="111.924897%" id="linearGradient-5">
+            <stop stop-color="#1162D7" offset="0%"></stop>
+            <stop stop-color="#78F3E3" offset="66.1989796%"></stop>
+            <stop stop-color="#52E5BB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Dating_App-iPhoneX-Dark-Mode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="User-Profile" transform="translate(-228.000000, -1439.000000)">
+            <g id="Contents" transform="translate(0.000000, -6.000000)">
+                <g id="Button_bottom" transform="translate(78.000000, 1453.000000)">
+                    <g id="buttons/message" transform="translate(160.000000, 0.000000)">
+                        <g id="Superlike">
+                            <g id="Oval">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <g id="icons/star" transform="translate(11.000000, 11.000000)">
+                                <rect id="Rectangle" fill-opacity="0" fill="#FF0000" x="0" y="0" width="38" height="38"></rect>
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <use id="Messages" fill="#000000" fill-rule="nonzero" xlink:href="#path-3"></use>
+                                <g id="color/Blue" mask="url(#mask-4)" fill="url(#linearGradient-5)">
+                                    <rect x="0" y="0" width="38" height="38"></rect>
+                                    <rect x="0" y="0" width="38" height="38"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

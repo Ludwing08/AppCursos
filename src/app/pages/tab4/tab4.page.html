@@ -1,0 +1,56 @@
+<ion-content>
+  <ion-toolbar mode="ios">
+    <ion-title class="titulo" mode="ios" size="large">Chat</ion-title>
+  </ion-toolbar>
+
+  <ion-toolbar mode="ios">
+    <ion-searchbar  mode="ios" animated="true" placeholder="Buscar..."></ion-searchbar>
+  </ion-toolbar>
+
+  <ion-title mode="ios">Conectados...</ion-title>
+
+  <br>
+
+  <ion-slides pager="false"  [options]="slideOptions">
+    <ion-slide style="height:80px">
+      <ion-avatar class="avatar-slide">
+        <img src="../../../assets/images/avatar.jpg" alt="">
+      </ion-avatar>
+
+      <div class="punto-verde"></div>
+      <br>
+      <ion-text ios="ios" class="name-avatar">Juan Lara</ion-text>
+    </ion-slide>
+
+    <ion-slide style="height:80px">
+      <ion-avatar class="avatar-slide">
+        <img src="../../../assets/images/avatar1.png" alt="">
+      </ion-avatar>
+
+      <div class="punto-verde"></div>
+      <br>
+      <ion-text ios="ios" class="name-avatar">Fernando</ion-text>
+    </ion-slide>
+
+    <ion-slide style="height:80px">
+      <ion-avatar class="avatar-slide">
+        <img src="../../../assets/images/avatar2.jpg" alt="">
+      </ion-avatar>
+
+      <div class="punto-verde"></div>
+      <br>
+      <ion-text ios="ios" class="name-avatar">Alex</ion-text>
+    </ion-slide>
+
+    <ion-slide style="height:80px">
+      <ion-avatar class="avatar-slide">
+        <img src="../../../assets/images/avatar3.png" alt="">
+      </ion-avatar>
+
+      <div class="punto-verde"></div>
+      <br>
+      <ion-text ios="ios" class="name-avatar">María</ion-text>
+    </ion-slide>
+
+  </ion-slides>
+</ion-content>

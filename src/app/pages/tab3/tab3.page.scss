@@ -1,0 +1,47 @@
+.titulo{
+    background-color: black;
+    color:whitesmoke !important;
+}
+ion-label,ion-accordion-group,ion-accordion,ion-list {
+    --ion-background-color:black !important;
+    color:whitesmoke !important;
+}
+
+ion-item{
+    margin: 10px;
+    color: whitesmoke !important;
+}
+
+div.cursos{
+    background-color:#1d334a !important;    
+    border:rgb(29,51,74) solid 1px !important;
+    border-bottom-left-radius:7%;
+}
+
+.accordion-group{
+    color:black !important;    
+    border-bottom:1px solid black !important;    
+}
+
+div.cursos img{
+    border-top-left-radius:7% ;
+    border-top-right-radius: 7%;
+}
+
+div.cursos:hover{
+    background: rgb(29,51,74);
+    background: radial-gradient(circle, rgba(29,51,74,1) 0%, rgba(20,40,103,1) 35%, rgba(0,134,255,0.3816877092633929) 100%);
+    -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+
+div.cursos{
+    color: whitesmoke !important;
+}
+
+ion-icon[name=play-circle]{
+    color: red !important;
+}   
+
+

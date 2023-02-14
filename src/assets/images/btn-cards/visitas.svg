@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="342px" height="40px" viewBox="0 0 342 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group Copy</title>
+    <defs>
+        <path d="M12,4.8 C8.4896,4.8 4.83359375,7.18173828 2.4,11.7333333 C4.75029297,15.9460937 7.71413333,18.6666667 12,18.6666667 C16.2816,18.6666667 19.6055664,15.346875 21.6,11.8090667 C19.8027344,7.61513672 16.2346667,4.8 12,4.8 Z M12,7.77173333 C14.1173333,7.77173333 15.84,9.55093333 15.84,11.7333333 C15.84,13.92 14.1173333,15.6949333 12,15.6949333 C9.88266667,15.6949333 8.16,13.9157333 8.16,11.7333333 C8.16,9.54666667 9.88266667,7.77173333 12,7.77173333 Z M12,9.75253333 C10.9429333,9.75253333 10.08,10.6581333 10.08,11.7717333 C10.08,12.8853333 10.9429333,13.7909333 12,13.7909333 C13.0570667,13.7909333 13.92,12.8853333 13.92,11.7717333 C13.92,11.6842667 13.9125333,11.5978667 13.9050667,11.5104 C13.7034667,11.6725333 13.4538667,11.7717333 13.1786667,11.7717333 C12.5248,11.7717333 12,11.2298667 12,10.5589333 C12,10.2592 12.1066667,9.9872 12.2794667,9.77493333 C12.1877333,9.76 12.0949333,9.75253333 12,9.75253333 Z" id="path-1"></path>
+    </defs>
+    <g id="Dating_App-iPhoneX-Dark-Mode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Favorites-/-Dropdown-Menu" transform="translate(-17.000000, -198.000000)">
+            <g id="NavBar">
+                <g id="Dropdown-Menu" transform="translate(17.000000, 109.000000)">
+                    <g id="Group-Copy" transform="translate(0.000000, 89.000000)">
+                        <rect id="Rectangle-5" fill="#E6E6E6" x="0" y="0" width="342" height="40" rx="8"></rect>
+                        <text id="Visitas" font-family="Roboto-Regular, Roboto" font-size="17" font-weight="normal" line-spacing="22" letter-spacing="-0.41" fill="#262628">
+                            <tspan x="54" y="24">Visitas</tspan>
+                        </text>
+                        <g id="icons/visitor" transform="translate(16.000000, 8.000000)">
+                            <rect id="Rectangle" fill-opacity="0" fill="#FF0000" fill-rule="evenodd" x="0" y="0" width="24" height="24"></rect>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <g id="color/Title-text-light-gray-2" mask="url(#mask-2)" fill-rule="evenodd">
+                                <rect id="color/Title-text-light-gray" fill="#DAD9E2" x="0" y="0" width="24" height="24"></rect>
+                                <rect id="color/Title-text-light-gray" fill="#C1C0C9" x="0" y="0" width="24" height="24"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

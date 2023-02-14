@@ -1,0 +1,22 @@
+.titulo{
+    background-color: black;
+}
+
+ion-card{
+    background-color:#1d334a !important;    
+    border:rgb(29,51,74) solid 1px !important;
+    border-radius:7% ;    
+}
+
+ion-card:hover{
+    background: rgb(29,51,74);
+    background: radial-gradient(circle, rgba(29,51,74,1) 0%, rgba(20,40,103,1) 35%, rgba(0,134,255,0.3816877092633929) 100%);
+    -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    box-shadow: 10px 10px 10px rgba(68, 68, 68, 0.6);
+}
+
+ion-card-title, ion-card-subtitle{
+    color: whitesmoke !important;
+}
+

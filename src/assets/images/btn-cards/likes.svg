@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="342px" height="40px" viewBox="0 0 342 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group Copy 2</title>
+    <g id="Dating_App-iPhoneX-Dark-Mode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Favorites-/-Dropdown-Menu" transform="translate(-17.000000, -246.000000)">
+            <g id="NavBar">
+                <g id="Dropdown-Menu" transform="translate(17.000000, 109.000000)">
+                    <g id="Group-Copy-2" transform="translate(0.000000, 137.000000)">
+                        <rect id="Rectangle-5" fill="#E6E6E6" x="0" y="0" width="342" height="40" rx="8"></rect>
+                        <text id="Likes" font-family="Roboto-Regular, Roboto" font-size="17" font-weight="normal" line-spacing="22" letter-spacing="-0.41" fill="#262628">
+                            <tspan x="54" y="24">Likes</tspan>
+                        </text>
+                        <g id="icons/like" transform="translate(16.000000, 8.000000)">
+                            <rect id="Rectangle" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="24" height="24"></rect>
+                            <g id="color/Title-text-light-gray-2">
+                                <rect id="color/Title-text-light-gray" fill="#DAD9E2" x="0" y="0" width="24" height="24"></rect>
+                                <rect id="color/Title-text-light-gray" fill="#C1C0C9" x="0" y="0" width="24" height="24"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

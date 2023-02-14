@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192px" height="61px" viewBox="0 0 192 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle</title>
+    <g id="Dating_App-iPhoneX-Dark-Mode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Messages-/-Details" transform="translate(-16.000000, -154.000000)" fill="#FFFFFF">
+            <g id="Messages" transform="translate(16.000000, 126.000000)">
+                <g id="Mess-1" transform="translate(0.000000, 28.000000)">
+                    <path d="M0,0 L13.75,11 L180,11 C186.525457,11 191.834393,16.2085444 191.9962,22.6950252 L192,23 L192,49 C192,55.627417 186.627417,61 180,61 L180,61 L12,61 C5.372583,61 -8.11624501e-16,55.627417 0,49 L0,49 L0,0 Z" id="Rectangle" transform="translate(96.000000, 30.500000) scale(-1, 1) rotate(-180.000000) translate(-96.000000, -30.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

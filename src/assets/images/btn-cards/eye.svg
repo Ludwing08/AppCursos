@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 3</title>
+    <defs>
+        <path d="M8,3.2 C5.65973333,3.2 3.22239583,4.78782552 1.6,7.82222222 C3.16686198,10.6307292 5.14275556,12.4444444 8,12.4444444 C10.8544,12.4444444 13.0703776,10.23125 14.4,7.87271111 C13.2018229,5.07675781 10.8231111,3.2 8,3.2 Z M8,5.18115556 C9.41155556,5.18115556 10.56,6.36728889 10.56,7.82222222 C10.56,9.28 9.41155556,10.4632889 8,10.4632889 C6.58844444,10.4632889 5.44,9.27715556 5.44,7.82222222 C5.44,6.36444444 6.58844444,5.18115556 8,5.18115556 Z M8,6.50168889 C7.29528889,6.50168889 6.72,7.10542222 6.72,7.84782222 C6.72,8.59022222 7.29528889,9.19395556 8,9.19395556 C8.70471111,9.19395556 9.28,8.59022222 9.28,7.84782222 C9.28,7.78951111 9.27502222,7.73191111 9.27004444,7.6736 C9.13564444,7.78168889 8.96924444,7.84782222 8.78577778,7.84782222 C8.34986667,7.84782222 8,7.48657778 8,7.03928889 C8,6.83946667 8.07111111,6.65813333 8.18631111,6.51662222 C8.12515556,6.50666667 8.06328889,6.50168889 8,6.50168889 Z" id="path-1"></path>
+    </defs>
+    <g id="Dating_App-iPhoneX-Dark-Mode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Profile" transform="translate(-33.000000, -378.000000)">
+            <g id="Panel-#1" transform="translate(19.000000, 313.000000)">
+                <g id="Visitors" transform="translate(0.000000, 65.000000)">
+                    <g id="Group-3" transform="translate(14.000000, 0.000000)">
+                        <rect id="Rectangle-2" fill="#50E3C2" x="0" y="0" width="22" height="22" rx="8"></rect>
+                        <g id="icons/visitor" transform="translate(3.000000, 3.000000)">
+                            <rect id="Rectangle" fill-opacity="0" fill="#FF0000" fill-rule="evenodd" x="0" y="0" width="16" height="16"></rect>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <g id="color/White" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                                <rect x="0" y="0" width="16" height="16"></rect>
+                                <rect x="0" y="0" width="16" height="16"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="65px" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>buttons/Rewinds</title>
+    <defs>
+        <circle id="path-1" cx="22.5" cy="22.5" r="22.5"></circle>
+        <filter x="-35.6%" y="-31.1%" width="171.1%" height="171.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.128113678 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M14.6295407,3 C10.2650574,3 6.49086009,5.32663464 4.59649637,8.95916335 L3,6.70881181 L3.53761425,13.0621045 L9.38053668,12.1576049 L6.63252871,10.9879306 C8.08735646,8.08735646 11.1386806,5.9096555 14.6295407,5.9096555 C19.4172135,5.9096555 23.3403445,9.8327865 23.3403445,14.6204593 C23.3403445,19.4172135 19.4172135,23.3403445 14.6295407,23.3403445 C12.0104875,23.3403445 9.68385282,22.1779353 8.08735646,20.2908367 L5.9096555,22.1779353 C7.94568784,24.6535036 11.1386806,26.25 14.6295407,26.25 C21.0209749,26.25 26.25,21.0209749 26.25,14.6204593 C26.25,8.22902508 21.0209749,3 14.6295407,3" id="path-3"></path>
+        <linearGradient x1="-59.4916667%" y1="109.469874%" x2="124.129167%" y2="12.1158171%" id="linearGradient-5">
+            <stop stop-color="#FEE140" stop-opacity="0.788354846" offset="0%"></stop>
+            <stop stop-color="#F05522" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Dating_App-iPhoneX-Dark-Mode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Discover" transform="translate(-44.000000, -520.000000)">
+            <g id="Card-main" transform="translate(16.000000, 120.000000)">
+                <g id="buttons/Rewinds" transform="translate(38.000000, 408.000000)">
+                    <g id="Superlike">
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="icons/star" transform="translate(8.250000, 8.250000)">
+                            <rect id="Rectangle" fill-opacity="0" fill="#FF0000" x="0" y="0" width="28.5" height="28.5"></rect>
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Fill-1" fill="#FFFFFF" xlink:href="#path-3"></use>
+                            <g id="color/Orange" mask="url(#mask-4)" fill="url(#linearGradient-5)">
+                                <rect x="0" y="0" width="28.5" height="28.5"></rect>
+                                <rect x="0" y="0" width="28.5" height="28.5"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,68 @@
+<ion-content [fullscreen]="true" mode="md">
+  <ion-toolbar mode="ios">
+    <ion-title class="titulo" mode="ios" size="large">Favoritos</ion-title>
+  </ion-toolbar>
+
+  <!-- 
+  <ion-card (click)="filtros = !filtros">
+    <ion-item lines="none">
+      <ion-button mode="ios" size="small" color="primary" slot="start">
+        12
+      </ion-button>
+      <ion-label>Todos mis favoritos</ion-label>
+      <ion-icon *ngIf="!filtros" mode="ios" name="chevron-down" slot="end"></ion-icon>
+      <ion-icon *ngIf="filtros" mode="ios" name="chevron-up" slot="end"></ion-icon>
+    </ion-item>
+  </ion-card> -->
+
+  <ion-accordion-group mode="ios">
+    <ion-accordion mode="ios" class="accordion-group">
+      <ion-item slot="header">
+        <ion-button mode="ios" size="small" color="primary" slot="start">
+          {{numero}}
+        </ion-button>
+        <ion-label>Todos mis favoritos</ion-label>
+      </ion-item>
+
+      <ion-list color="primary" slot="content" lines="none">
+        <ion-item (click)='cargarCursos()'>Todos</ion-item>
+        <ion-item (click)='filtrarCategoria("Móbiles")'>Móbiles</ion-item>
+        <ion-item (click)='filtrarCategoria("Web")'>Web</ion-item>
+        <ion-item (click)='filtrarCategoria("Redes")'>Redes</ion-item>
+      </ion-list>
+
+    </ion-accordion>
+  </ion-accordion-group>
+
+  <!-- <div *ngIf="filtros" class="opciones">
+    
+  </div> -->
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6"  *ngFor="let curso of cursos">
+        <div class="cursos">
+          <ion-img class="imagen" [src]="curso.imagen"></ion-img>
+          <ion-icon mode="ios" color="danger" slot="start" name="play-circle"></ion-icon>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="6">
+                <ion-text>
+                  {{curso.titulo}}
+                </ion-text>
+              </ion-col>
+              <ion-col size="6">
+                <ion-button mode="ios" size="small" color="tertiary">
+                  <ion-icon mode="ios" color="light" slot="start" name="star"></ion-icon>
+                  {{curso.favoritos}}
+                </ion-button>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </div>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
